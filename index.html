@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Carroll Construction Supply - Fiberglass Rebar</title>
+
+    <meta http-equiv="Cache-control" content="public" max-age="31557600">
+
+    <meta name="title" content="Carroll Construction Supply - Fiberglass Rebar">
+    <meta name="author" content="Unfolding Software LLC">
+    <meta name="description" content="Unfolding Software is a team of creative problem solvers.">
+    <meta name="keywords"
+        content="Salesforce,Web Development,Web Design,Indy,Indianapolis,Indiana,IT Services,Drupal,Consultant,Consulting,Software,Mobile,App,Small Business,Cloud,Services">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div>
+
+        <form id="contact-form" action="send-josh.php" method="post">
+
+            <header>
+                <h2>Carroll Supply</h2>
+                <h3>World of Concrete 2020</h3>
+                <div>Please submit your contact information below.</div>
+            </header>
+
+            <div>
+                <label class="desc" id="title1" for="CompanyName">Company Name</label>
+                <div>
+                    <input id="CompanyName" name="CompanyName" type="text" class="field text fn" value="" size="8"
+                        tabindex="1">
+                </div><br>
+                <label class="desc" id="title2" for="FullName">Full Name</label>
+                <div>
+                    <input id="FullName" name="FullName" type="text" class="field text fn" value="" size="8"
+                        tabindex="1">
+                </div><br>
+            </div>
+
+            <div>
+                <label class="desc" id="title3" for="Email">
+                    Email
+                </label>
+                <div>
+                    <input id="Email" name="Email" type="email" spellcheck="false" value="" maxlength="255"
+                        tabindex="3">
+                </div><br>
+                <label class="desc" id="title4" for="Phone">
+                    Phone Number
+                </label>
+                <div>
+                    <input id="Phone" name="Phone" type="tel" spellcheck="false" value="" maxlength="255" tabindex="3">
+                </div><br>
+            </div>
+
+            <div>
+                <label class="desc" id="title5" for="Message">
+                    Message
+                </label>
+
+                <div>
+                    <textarea id="Message" name="Message" spellcheck="true" rows="10" cols="50" tabindex="4"></textarea>
+                </div>
+            </div>
+
+            <div>
+                <fieldset>
+
+                    <legend id="title6" class="desc">
+                        Select a Choice
+                    </legend>
+
+                    <div>
+                        <input id="radioDefault_5" name="Field5" type="hidden" value="">
+                        <div>
+                            <input id="Field5_0" name="Field5" type="radio" value="First Choice" tabindex="5"
+                                checked="checked">
+                            <label class="choice" for="Field5_0">First Choice</label>
+                        </div>
+                        <div>
+                            <input id="Field5_1" name="Field5" type="radio" value="Second Choice" tabindex="6">
+                            <label class="choice" for="Field5_1">Second Choice</label>
+                        </div>
+                        <div>
+                            <input id="Field5_2" name="Field5" type="radio" value="Third Choice" tabindex="7">
+                            <label class="choice" for="Field5_2">Third Choice</label>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+
+            <div>
+                <fieldset>
+                    <legend id="title6" class="desc">
+                        Check All That Apply
+                    </legend>
+                    <div>
+                        <div>
+                            <input id="Field6" name="Field6" type="checkbox" value="First Choice" tabindex="8">
+                            <label class="choice" for="Field6">First Choice</label>
+                        </div>
+                        <div>
+                            <input id="Field7" name="Field7" type="checkbox" value="Second Choice" tabindex="9">
+                            <label class="choice" for="Field7">Second Choice</label>
+                        </div>
+                        <div>
+                            <input id="Field8" name="Field8" type="checkbox" value="Third Choice" tabindex="10">
+                            <label class="choice" for="Field8">Third Choice</label>
+                            </span>
+                        </div>
+                </fieldset>
+            </div>
+
+            <div>
+                <label class="desc" id="title106" for="Field106">
+                    Select a Choice
+                </label>
+                <div>
+                    <select id="Field106" name="Field106" class="field select medium" tabindex="11">
+                        <option value="First Choice">First Choice</option>
+                        <option value="Second Choice">Second Choice</option>
+                        <option value="Third Choice">Third Choice</option>
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <input id="saveForm" name="saveForm" type="submit" value="Submit">
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <div class="form-container">
+        <form id="contact" action="send.php" method="post">
+            <p>
+                <label for="form-name">Name:</label><br>
+                <input type="text" name="name" id="form-name">
+            </p>
+            <p>
+                <label for="form-email">Email:</label><br>
+                <input type="email" name="email" id="form-email" required>
+            </p>
+            <p>
+                <label for="form-phone">Phone:</label><br>
+                <input type="tel" name="phone" id="form-phone">
+            </p>
+            <p>
+                <label for="form-message">Message:</label><br>
+                <textarea name="message" rows="3" id="form-message"></textarea>
+            </p>
+            <p>
+                <input id="checkbox" type="checkbox" value="newsletter">
+                <label for="checkbox">
+                    Sign up for our email list for updates, promotions, and more.
+                </label>
+            </p>
+            <p>
+                <button type="submit" class="button" style="float: right;">Submit</button>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
